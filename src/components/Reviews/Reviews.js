@@ -15,7 +15,6 @@ const Reviews = () => {
     api
       .getMovieReviews(movieId)
       .then(results => {
-        // console.log(results);
         setReviews(results);
       })
       .catch(error => {

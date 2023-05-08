@@ -16,7 +16,6 @@ const Cast = () => {
     api
       .getMovieCast(movieId)
       .then(cast => {
-        // console.log(cast);
         setCast(cast);
       })
       .catch(error => {

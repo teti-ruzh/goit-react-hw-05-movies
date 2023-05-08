@@ -19,19 +19,12 @@ const MovieDetails = () => {
     api
       .getMovieDetails(movieId)
       .then(response => {
-        // console.log(response);
         setMovie(response);
       })
       .catch(error => {
         console.log(error);
       });
   }, [movieId]);
-
-  // const { overview, title } = movie;
-  // const score = Math.round(movie.vote_average * 10);
-  //   const year = movie.release_date.slice(0, 4);
-  //   const genres = movie.genres.flatMap(genre => genre.name);
-  //   const imgSrc = `https://www.themoviedb.org/v4/image/${poster_path}`;
 
   return (
     <>
