@@ -1,0 +1,16 @@
+.movieImg {
+  display: block;
+  border-radius: 3px;
+  box-shadow: 0 1px 4px 0 #000;
+}
+
+.movieLink {
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+}
